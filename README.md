@@ -157,8 +157,6 @@ uvicorn app.main:app --reload --port 8000 --host 0.0.0.0
 | 피부종양 이미지 합성 데이터 | 피부종양 합성 이미지 데이터셋 | [AIHub](https://aihub.or.kr/aihubdata/data/view.do?pageIndex=1&currMenu=&topMenu=&srchOptnCnd=OPTNCND001&searchKeyword=%EC%A0%84%EA%B8%B0+%EC%84%A4%EB%B9%84&srchDetailCnd=DETAILCND001&srchOrder=ORDER001&srchPagePer=80&srchDataRealmCode=REALM005&aihubDataSe=data&dataSetSn=71771) |
 
 
-
-
 ## 🗓️ 프로젝트 기간
 
 2025년 9월 16일 ~ 10월 17일 (1달)
@@ -182,6 +180,7 @@ DB와 LLM에 라벨링 데이터를 반영해 정다과 풀이의 정밀도를 �
 
 모바일이 더 접근성등이 뛰어나보여 향후 모바일 및 반응형 웹
 
+
 ## 👥 팀원 역할
 
 | 이름 | 역할 |
@@ -192,7 +191,6 @@ DB와 LLM에 라벨링 데이터를 반영해 정다과 풀이의 정밀도를 �
 | 원유진 | 데이터 선정, 프론트 총괄 |
 | 정윤환 | 데이터 선정, 데이터 모델링 |
 | 조민수 | 데이터 선정, 프로젝트 기획, 데이터 모델링, 발표 |
-
 
 
 ## 📄 라이선스

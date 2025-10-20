@@ -15,7 +15,7 @@
 - **LLM 기반 해설 & 근거 제시**: 정답만 제시하는 것이 아니라 판독 근거와 시각적 특징 설명으로 임상적 이해도 향상
 - **로그인 및 기록 저장 기능**: JWT 인증 기반 사용자 관리 및 학습 결과 DB 저장
 - **학습 리포트 분석**: 정답률, 진행도, 오답 유형 등을 시각화하여 개인별 학습 패턴 분석 및 리포트 제공
-- 
+
 ---
 
 ## 🧪 기술 스택
@@ -151,10 +151,11 @@ uvicorn app.main:app --reload --port 8000 --host 0.0.0.0
 
 ## 📊 사용 데이터셋
 
-| 이름                 | 설명                          | 출처             |
-|----------------------|-------------------------------|------------------|
-| 소아 복부 X-ray 합성데이터 | AI를 이용해 소아 복부 x-ray 합성 이미지 데이터셋     | [AIHub](https://aihub.or.kr/aihubdata/data/view.do?pageIndex=1&currMenu=&topMenu=&srchOptnCnd=OPTNCND001&searchKeyword=%EC%A0%84%EA%B8%B0+%EC%84%A4%EB%B9%84&srchDetailCnd=DETAILCND001&srchOrder=ORDER001&srchPagePer=80&srchDataRealmCode=REALM005&aihubDataSe=data&dataSetSn=71771) |
-| 피부종양 이미지 합성 데이터       | 피부종양 합성 이미지 데이터셋       | [AIHub](https://aihub.or.kr/aihubdata/data/view.do?pageIndex=1&currMenu=&topMenu=&srchOptnCnd=OPTNCND001&searchKeyword=%EC%A0%84%EA%B8%B0+%EC%84%A4%EB%B9%84&srchDetailCnd=DETAILCND001&srchOrder=ORDER001&srchPagePer=80&srchDataRealmCode=REALM005&aihubDataSe=data&dataSetSn=71771) |
+| 이름 | 설명 | 출처 |
+|---|---|---|
+| 소아 복부 X-ray 합성데이터 | AI를 이용해 소아 복부 X-ray 합성 이미지 데이터셋 | [AIHub](https://aihub.or.kr/aihubdata/data/view.do?pageIndex=1&currMenu=&topMenu=&srchOptnCnd=OPTNCND001&searchKeyword=%EC%A0%84%EA%B8%B0+%EC%84%A4%EB%B9%84&srchDetailCnd=DETAILCND001&srchOrder=ORDER001&srchPagePer=80&srchDataRealmCode=REALM005&aihubDataSe=data&dataSetSn=71771) |
+| 피부종양 이미지 합성 데이터 | 피부종양 합성 이미지 데이터셋 | [AIHub](https://aihub.or.kr/aihubdata/data/view.do?pageIndex=1&currMenu=&topMenu=&srchOptnCnd=OPTNCND001&searchKeyword=%EC%A0%84%EA%B8%B0+%EC%84%A4%EB%B9%84&srchDetailCnd=DETAILCND001&srchOrder=ORDER001&srchPagePer=80&srchDataRealmCode=REALM005&aihubDataSe=data&dataSetSn=71771) |
+
 
 
 
@@ -183,14 +184,15 @@ DB와 LLM에 라벨링 데이터를 반영해 정다과 풀이의 정밀도를 �
 
 ## 👥 팀원 역할
 
-| 이름   | 역할                                            |
-|--------|-------------------------------------------------|
-| 신소연 | 데이터 선정, 데이터 모델링, DB구축, PPT 제작       |
-| 김유현 | 데이터 선정, 데이터 모델링, PPT 제작               |
-| 김한영 | 데이터 선정, 벡엔드 총괄, 데이터 모델링            |
-| 원유진 | 데이터 선정, 프론트 총괄                          |
-| 정윤환 | 데이터 선정, 데이터 모델링                        |
-| 조민수 | 데이터 선정, 프로젝트 기획, 데이터 모델링, 발표     |
+| 이름 | 역할 |
+|---|---|
+| 신소연 | 데이터 선정, 데이터 모델링, DB 구축, PPT 제작 |
+| 김유현 | 데이터 선정, 데이터 모델링, PPT 제작 |
+| 김한영 | 데이터 선정, 백엔드 총괄, 데이터 모델링 |
+| 원유진 | 데이터 선정, 프론트 총괄 |
+| 정윤환 | 데이터 선정, 데이터 모델링 |
+| 조민수 | 데이터 선정, 프로젝트 기획, 데이터 모델링, 발표 |
+
 
 
 ## 📄 라이선스

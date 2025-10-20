@@ -154,8 +154,8 @@ uvicorn app.main:app --reload --port 8000 --host 0.0.0.0
 
 | 이름 | 설명 | 출처 |
 |---|---|---|
-| 소아 복부 X-ray 합성데이터 | AI를 이용해 소아 복부 X-ray 합성 이미지 데이터셋 | [AIHub](https://aihub.or.kr/aihubdata/data/view.do?pageIndex=1&currMenu=&topMenu=&srchOptnCnd=OPTNCND001&searchKeyword=%EC%A0%84%EA%B8%B0+%EC%84%A4%EB%B9%84&srchDetailCnd=DETAILCND001&srchOrder=ORDER001&srchPagePer=80&srchDataRealmCode=REALM005&aihubDataSe=data&dataSetSn=71771) |
-| 피부종양 이미지 합성 데이터 | 피부종양 합성 이미지 데이터셋 | [AIHub](https://aihub.or.kr/aihubdata/data/view.do?pageIndex=1&currMenu=&topMenu=&srchOptnCnd=OPTNCND001&searchKeyword=%EC%A0%84%EA%B8%B0+%EC%84%A4%EB%B9%84&srchDetailCnd=DETAILCND001&srchOrder=ORDER001&srchPagePer=80&srchDataRealmCode=REALM005&aihubDataSe=data&dataSetSn=71771) |
+| 소아 복부 X-ray 합성데이터 | AI를 이용해 소아 복부 X-ray 합성 이미지 데이터셋 | [AIHub](https://www.aihub.or.kr/aihubdata/data/view.do?pageIndex=1&currMenu=115&topMenu=100&srchOptnCnd=OPTNCND001&searchKeyword=%EC%86%8C%EC%95%84+%EB%B3%B5%EB%B6%80&srchDetailCnd=DETAILCND001&srchOrder=ORDER001&srchPagePer=20&aihubDataSe=data&dataSetSn=71862) |
+| 피부종양 이미지 합성 데이터 | 피부종양 합성 이미지 데이터셋 | [AIHub](https://www.aihub.or.kr/aihubdata/data/view.do?pageIndex=1&currMenu=115&topMenu=100&srchOptnCnd=OPTNCND001&searchKeyword=%ED%94%BC%EB%B6%80%EC%A2%85%EC%96%91+%EC%9D%B4%EB%AF%B8%EC%A7%80+%ED%95%A9%EC%84%B1&srchDetailCnd=DETAILCND001&srchOrder=ORDER001&srchPagePer=20&aihubDataSe=data&dataSetSn=71864) |
 
 
 ## 🗓️ 프로젝트 기간
